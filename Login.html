@@ -51,12 +51,17 @@
                     <a class="nav-link active" aria-current="page" href="Onas.html">O nás</a>
                 </li>
 
-                <div class="lavaStranaTlacidla ">
-                    <button class="btn me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Košik</button>
-                    <button class="btn me-2 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Log in</button>
-                </div>
+
+
 
             </ul>
+            <div class="lavaStranaTlacidla ">
+                <button class="btn me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Košik</button>
+                <a class="btn me-2" href="Login.html">
+                    Login
+                </a>
+            </div>
+
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn brder" type="submit">Search</button>
@@ -64,6 +69,18 @@
         </div>
     </div>
 </nav>
+
+<h2 class="loginV">Login</h2>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Košík</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        ešte neni
+    </div>
+</div>
 
 
 <form class="loginV">
@@ -81,5 +98,7 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+
 </body>
 </html>
